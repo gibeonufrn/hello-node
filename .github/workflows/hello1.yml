@@ -1,4 +1,4 @@
-name: Hello Actions 2
+name: Hello Actions 1
 on: [push]
 jobs:
   Hello-Job-1:
