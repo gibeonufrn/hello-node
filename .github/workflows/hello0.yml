@@ -7,7 +7,6 @@ jobs:
     steps:
       - run: echo "Execucao do meu primeiro Job"
       - run: echo "Varios comandos"
-}}."
 
   Hello-Job-2:
     runs-on: ubuntu-latest
