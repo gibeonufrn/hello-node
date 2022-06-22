@@ -1,0 +1,12 @@
+{
+  "name": "my-first-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "apps.js",
+  "scripts": {
+    "start": "node apps.js"
+  },
+  "keywords": [],
+  "author": "Gibeon Aquino",
+  "license": "ISC"
+}
