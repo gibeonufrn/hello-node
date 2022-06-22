@@ -1,12 +1,14 @@
-name: learn-github-actions
+name: Hello Actions 2
 on: [push]
 jobs:
-  check-bats-version:
+  Hello-Job-1:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '14'
-      - run: npm install -g bats
-      - run: bats -v
+      - run: echo "Execucao do meu segundo Job"
+      - run: echo "Varios comandos"
+
+  Hello-Job-2:
+    runs-on: ubuntu-latest
+    depends: Hello-Job-1
+    steps:
+      - run: echo "Outro Job"
