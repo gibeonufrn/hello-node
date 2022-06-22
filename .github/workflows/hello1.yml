@@ -9,6 +9,6 @@ jobs:
 
   Hello-Job-2:
     runs-on: ubuntu-latest
-    depends: Hello-Job-1
+    needs: Hello-Job-1
     steps:
       - run: echo "Outro Job"
